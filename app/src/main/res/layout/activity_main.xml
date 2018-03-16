@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/white"
+            android:background="@drawable/addresschange_btn"
+            android:id="@+id/main_getOperationsData"
+            android:text="获取测试数据"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/main_storageTip"
+            android:layout_below="@+id/main_getOperationsData"
+            android:text="内存块数量（4~32）"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <SeekBar
+            android:layout_below="@+id/main_storageTip"
+            android:id="@+id/main_storage"
+            android:max="28"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_below="@+id/main_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="测试指令数"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:maxLength="4"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="FIFO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="LRU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="LFU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="OTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/main_start"
+        android:text="开始测试"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_gravity="left|top"
+        android:height="40dp"
+        android:textColor="@color/white"
+        android:background="@drawable/addresschange_btn"
+        android:text="测试所有算法"
+        android:id="@+id/main_getAllResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:textColor="@color/white"
+        android:background="@drawable/addresschange_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="对比不同算法"
+        android:id="@+id/main_goCompare"
+        android:layout_below="@+id/chart"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:textColor="@color/white"
+        android:background="@drawable/addresschange_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="指令数分布"
+        android:id="@+id/main_goOperation"
+        android:layout_below="@+id/chart"
+        android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    <ListView
+        android:id="@+id/main_showListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

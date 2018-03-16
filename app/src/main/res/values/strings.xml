@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hellocharts</string>
+    <string name="FIFOColor">#33B5E5</string>
+    <string name="LRUColor">#AA66CC</string>
+    <string name="LFUColor">#99CC00</string>
+    <string name="OTPColor">#FFBB33</string>
+</resources>

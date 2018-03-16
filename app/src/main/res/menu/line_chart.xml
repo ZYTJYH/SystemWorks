@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="lecho.lib.hellocharts.samples.LineChartActivity" >
+
+    <item
+        android:id="@+id/action_reset"
+        android:title="恢复初始"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_lines"
+        android:title="线 显示/隐藏"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_points"
+        android:title="点 显示/隐藏"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_gradient"
+        android:title="Toggle gradient"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_cubic"
+        android:title="线 折现/曲线"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_area"
+        android:title="区域 填充/不填充"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_shape_circles"
+        android:title="圆形点"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_shape_square"
+        android:title="方形点"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_shape_diamond"
+        android:title="菱形点"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_axes"
+        android:title="坐标系 显示/隐藏"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_axes_names"
+        android:title="坐标系名称 显示/隐藏"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_labels"
+        android:title="点数值 显示/隐藏"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_animate"
+        android:title="动画"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_selection_mode"
+        android:title="点击后数值及背景是否显示"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_toggle_touch_zoom"
+        android:title="点击后数值是否以提示消息显示"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_zoom_both"
+        android:title="缩放 X/Y"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_zoom_horizontal"
+        android:title="缩放 X"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_zoom_vertical"
+        android:title="缩放 Y"
+        app:showAsAction="never"/>
+
+</menu>

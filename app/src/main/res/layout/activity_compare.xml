@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<FrameLayout tools:ignore="MergeRootFrame" tools:context=".CompareActivity" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/container" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <zytjyh.com.hellocharts.LineName
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</FrameLayout>
